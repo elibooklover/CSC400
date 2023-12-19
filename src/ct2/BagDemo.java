@@ -4,9 +4,9 @@ public class BagDemo {
     
 	public static void testAddl(ShoppingCart cart) {
     	
-        cart.add(new MyType("Apple", 1.50));
-        cart.add(new MyType("Banana", 0.75));
-        cart.add(new MyType("Orange", 1.25));
+        cart.add(new MyType("Apple", 1.20));
+        cart.add(new MyType("Banana", 0.65));
+        cart.add(new MyType("Orange", 1.45));
     
     }
 
