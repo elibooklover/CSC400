@@ -11,7 +11,7 @@ public class PostfixConverterTest {
     	testConversion("1+2*3-4/5", "123*+45/-");
     }
 
-    // Helper method to test the conversion of an infix expression to postfix.
+    // Test the conversion of an infix expression to postfix.
     private static void testConversion(String infix, String expectedPostfix) {
     	
         // Call the conversion method
